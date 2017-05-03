@@ -1,5 +1,5 @@
 package Hello_World;
-
+import java.util.Date;
 /**
  * Print Hello World to the screen when run.
  * @author John Mayernik
@@ -12,8 +12,8 @@ package Hello_World;
  */
 public class Hello_World {
     public static void main(String[] args) {
-        System.out.println("Hello World!!" + " \nHow is your day going?");
-
+        System.out.println("Hello World!!" + " \nHow is your day going and for your information todays date is:");
+        System.out.println(new Date());
 
 
     }
